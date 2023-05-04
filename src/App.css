@@ -1,0 +1,90 @@
+
+:root {
+  --lightgray: #D9D9D9;
+  --gray: #9c9c9c;
+  --orange: #0000;
+  --darkGrey: #464D53;
+  --caloryCard: #655a5a;
+  --planCard: linear-gradient(210.41deg, #fa5042 1.14%, #39ffc0 100.75%);
+  --appColor:  #442a2a;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+.stroke-text{
+  color: rgb(6, 255, 234);
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-fill-color: transparent;
+}
+.btn{
+  background-color: white;
+  padding: 0.5rem;
+  font-weight: bold;
+  border: 4px solid transparent;
+  transition: 300ms all;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn:hover{
+  cursor: pointer;
+  
+}
+.blur{
+  background: rgb(31, 120, 120);
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(212px);
+  z-index: -9;
+}
+.navba {
+  display: flex;
+ flex-direction: column;
+ align-items: baseline;
+  background-color: #bb2f2f;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-links {
+  display: flex;
+ flex-direction: column;
+  gap: 5%;
+  margin: 0;
+  flex-direction: row;
+}
+
+body {
+  background-color: #292525; 
+}
+
+.navba {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #292525;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link {
+  color: #000000;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.nav-link:hover {
+  background-color: aqua;
+}
+
+.active {
+  color: rgb(0, 0, 0);
+  background-color: #ddd;
+}
